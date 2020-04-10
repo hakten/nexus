@@ -1,0 +1,6 @@
+{
+    "name": "repo1",
+    "type": "groovy",
+    "content": "import org.sonatype.nexus.blobstore.api.BlobStoreManager;repository.createDockerHosted('docker-hub','https://nexus.ggl.huseyinakten.ner','HUB',null,8085,null,BlobStoreManager.DEFAULT_BLOBSTORE_NAME,true,true);def groupMembers = ['docker-hub', 'docker-internal'];repository.createDockerGroup('docker-all', null, 18443, groupMembers, true);log.info('Script dockerRepositories completed successfully')"
+  }
+

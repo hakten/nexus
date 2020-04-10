@@ -1,0 +1,5 @@
+{
+    "name": "hogafse17",
+    "type": "groovy",
+    "content": "security.securitySystem.changePassword('admin', 'hoge17')"
+  }
